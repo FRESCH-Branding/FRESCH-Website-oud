@@ -12,6 +12,14 @@
     background-color: black;
 }
 
+.Top-bar-logo img {
+    position: absolute;
+    width: auto;
+    height: 50px;
+    top: 12.5px;
+    left: 50px;
+}
+
 .Front-page {
     width: 100%;
     height: 70%;
