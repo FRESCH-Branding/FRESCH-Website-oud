@@ -1,9 +1,28 @@
-* {
-    margin: 0;
-    width: 100vw;
-    height: 100vh;
+@font-face {
+    font-family: Bebas-bold;
+    src: url(/input/fonts/Bebas/BebasNeue-Bold.otf);
+}
+@font-face {
+    font-family: Bebas-book;
+    src: url(/input/fonts/Bebas/BebasNeue-Light.otf);
+}
+@font-face {
+    font-family: Bebas-regular;
+    src: url(/input/fonts/Bebas/BebasNeue-Book.otf);
 }
 
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* width: 100vw; */
+    /* height: 100vh; */
+}
+/* 
 .Top-bar {
     position: relative;
     display: block;
@@ -18,7 +37,7 @@
     height: 50px;
     top: 12.5px;
     left: 50px;
-}
+} */
 
 .Front-page {
     width: 100%;
