@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/Nav-bar.css" />
+
     <link
       rel="icon"
       href="/input/FRESCH Logo/icon/FRESCH_icon_minimal_Grey.png"
@@ -15,32 +16,36 @@
 
     <title>FRESCH BRANDING</title>
   </head>
-  <body>
-    <nav>
-      <div class="Nav-logo">
-        <!-- <img src="/input/FRESCH Logo/FRESCH_Logo_Name.png" alt="" /> -->
-        FRESCH
-      </div>
-      <ul class="Nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Over</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <div class="Burger-menu">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </div>
-    </nav>
 
-    <!-- <div class="Front-page">
+  <body>
+    <header class="Header">
+      <a href="/index.html" class="logo">
+        <img src="/input/FRESCH Logo/FRESCH_Logo_Name.png" alt="" />
+      </a>
+      <input
+        class="menu-icon"
+        type="checkbox"
+        id="menu-icon"
+        name="menu-icon"
+      />
+      <label for="menu-icon"></label>
+      <nav class="nav">
+        <ul class="pt-5">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Over</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="Front-page">
       <img
         class="Front-logo"
         src="/input/FRESCH Logo/FRESCH_minimal_Logo/FRESCH_Minimal_Logo_Grey.png"
         alt="FRESCH BRANDING"
       />
-    </div> -->
+    </div>
 
     <script src="/js/app.js"></script>
   </body>

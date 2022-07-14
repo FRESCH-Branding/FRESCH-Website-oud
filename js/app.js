@@ -16,7 +16,6 @@ window.onload = function () {
 };
 
 // navigation animation
-
 const navigationSlide = () => {
   const burger = document.querySelector(".Burger-menu");
   const nav = document.querySelector(".Nav-links");
