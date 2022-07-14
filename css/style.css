@@ -24,7 +24,10 @@
 .Front-logo-1 {
     display: block;
     position: absolute;
-    inset: 0;
+    /* inset: 0; */
+    top: 150px;
+    left: 0;
+    right: 0;
     margin: auto;
 }
 .Front-logo-2 {
