@@ -1,5 +1,4 @@
 //website title changes
-
 window.onload = function () {
   var pageTitle = document.title;
   var attentionMessage = "HI!👋 kan ik iets voor je doen?";
@@ -14,6 +13,12 @@ window.onload = function () {
     }
   });
 };
+
+function delay(URL) {
+  setTimeout(function () {
+    window.location = URL;
+  }, 500);
+}
 
 // navigation animation
 const navigationSlide = () => {
