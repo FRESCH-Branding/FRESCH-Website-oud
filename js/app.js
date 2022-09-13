@@ -44,3 +44,11 @@ const navigationSlide = () => {
 };
 
 navigationSlide();
+
+// go to top button
+let mybutton = document.getElementById("top-button");
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
