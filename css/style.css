@@ -84,6 +84,8 @@
     padding-top: 20px;
 }
 
+/* -----------------------FOOTER---------------------------- */
+
 footer {
     display: block;
     position: relative;
@@ -125,6 +127,66 @@ footer {
     transform: translate(0, -10px)
 }
 
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 15vw);
+
+    width: 30vw;
+    margin: auto;
+    padding-top: 80px;
+
+    list-style-type: none;
+}
+
+/* --------------------------------------------------- */
+
+.footer-grid a {
+    font-family: 'montserrat';
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footer-grid a:hover {
+    color: green;
+}
+
+.footer-grid li {
+    margin: 10px;
+}
+
+.footer-menu {
+    display: grid;
+    justify-content: center;
+}
+
+.footer-voorwaardes {
+    display: grid;
+    row-gap: 48px;
+    justify-content: center;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.voorwaardes {
+    display: grid;
+    /* align-items: end; */
+}
+
+.voorwaardes a{
+    color: #555;
+    font-size: 1.1em;
+}
+
+.voorwaardes a:hover{
+    color: #888;
+}
+
+/* --------------------------------------------------- */
+
 .footer-contact {
     display: flex;
     white-space: nowrap;
@@ -160,50 +222,4 @@ footer {
     position: absolute;
     display: flex;
     bottom: 25px;
-}
-
-.footer-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 15vw);
-
-    width: 30vw;
-    margin: auto;
-    padding-top: 80px;
-
-    list-style-type: none;
-}
-
-.footer-grid a {
-    font-family: 'montserrat';
-    color: white;
-    font-size: 1.5em;
-    text-decoration: none;
-    list-style-type: none;
-}
-
-.footer-grid li {
-    margin: 10px;
-}
-
-.footer-menu {
-    display: grid;
-    justify-content: center;
-}
-
-.footer-voorwaardes {
-    display: grid;
-    row-gap: 48px;
-    justify-content: center;
-}
-
-.social-icons {
-    display: flex;
-}
-
-.voorwaardes {
-    display: grid;
-}
-.voorwaardes a{
-    color: gray;
-    font-size: 1.2em;
 }
