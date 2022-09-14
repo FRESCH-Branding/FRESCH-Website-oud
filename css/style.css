@@ -162,64 +162,48 @@ footer {
     bottom: 25px;
 }
 
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 15vw);
 
+    width: 30vw;
+    margin: auto;
+    padding-top: 80px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .copyright-set {
-    display: flex;
-    font-family: 'montserrat';
-    color: white;
-
-    justify-content: center;
-    position: absolute;
-    width: 100%;
-    line-height: 40px;
-    font-size: 1.2em;
-    bottom: 25px;
-
-    white-space: nowrap;
+    list-style-type: none;
 }
 
-.contact-button-1 span{
-    color: white;
-    font-size: 1em;
+.footer-grid a {
     font-family: 'montserrat';
-    font-weight: 600;
-    cursor: pointer;
-    margin-right: 40px;
-}
-
-.contact-button-2 span{
     color: white;
-    font-size: 1em;
-    font-family: 'montserrat';
-    font-weight: 500;
-    cursor: pointer;
-}
-
-.contact-button-1 a,
-.contact-button-2 a {
+    font-size: 1.5em;
     text-decoration: none;
+    list-style-type: none;
 }
 
-.svg {
-    fill: white;
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-} */
+.footer-grid li {
+    margin: 10px;
+}
+
+.footer-menu {
+    display: grid;
+    justify-content: center;
+}
+
+.footer-voorwaardes {
+    display: grid;
+    row-gap: 48px;
+    justify-content: center;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.voorwaardes {
+    display: grid;
+}
+.voorwaardes a{
+    color: gray;
+    font-size: 1.2em;
+}
