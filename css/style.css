@@ -52,6 +52,26 @@
 
 }
 
+
+.Lees-meer {
+    font: 1rem 'montserrat';
+    float: left;
+    margin-left: 85px;
+    cursor: pointer;
+}
+
+.over-fresch {
+    width: 100vw;
+    fill: #aaa;
+    top: -150px;
+    display: block;
+    position: relative;
+}
+
+.over-fresch svg {
+    width: 32vw;
+}
+
 /* -----------------------FOOTER---------------------------- */
 
 footer {
