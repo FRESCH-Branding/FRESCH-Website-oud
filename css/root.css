@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Bebas-bold;
+    src: url(/input/fonts/Bebas/BebasNeue-Bold.otf);}
+@font-face {
+    font-family: Bebas-book;
+    src: url(/input/fonts/Bebas/BebasNeue-Light.otf);}
+@font-face {
+    font-family: Bebas-regular;
+    src: url(/input/fonts/Bebas/BebasNeue-Book.otf);}
+
+:root {
+    --lightgray: #aaa;
+    --gray: #555 ;
+    --yellow: #ffeba7;
+    --blue: #353746;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
