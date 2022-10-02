@@ -40,21 +40,20 @@
     text-decoration: none;
 }
 
-/* -----------------------OVER ---------------------------- */
+/* ----------------------- EXPERTISE ---------------------------- */
 
 .expertise-fresch {
-    z-index: 1;
+    z-index: 2;
     height: 100vh;
 }
 
-.expertise-titel {
+.expertise-title {
 	margin: 0;
 	text-align: center;
     position: absolute;
 	z-index: 1;
     float: left;
     padding-top: 3%;
-    padding-left: 5%;
 	white-space: nowrap;
 }
 
@@ -63,17 +62,120 @@
     display: block;
     font-family: Bebas-bold;
     letter-spacing: 3px;
-    font-size: 4em;
+    font-size: 3em;
     color: var(--blue);
 }
 
 .expertise-background {
     height: 100vh;
-    width: 30vw;
+    width: 35%;
     fill: var(--lightgray);
     margin-top: -130px;
+    position: absolute;
+    z-index: 1;
 }
 
+
+
+
+
+
+
+
+
+/*Section used for centering process*/
+
+.expertise-accordion{
+    width: 40%;
+    float: right;
+    margin: 250px 260px 0 0;
+}
+
+.accordion-item{
+  border-radius: .4rem;
+}
+
+.accordion-item hr{
+  border: 1px solid #999;
+}
+
+.accordion-link{
+  font-size: 2rem;
+  color: #999;
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  cursor: pointer;
+  font-family: Bebas-bold;
+  letter-spacing: 3px;
+
+}
+
+.accordion-link:hover {
+    color: var(--blue);
+}
+
+.accordion-link h3{
+  font-size: 3rem;
+}
+
+.accordion-link i{
+  color: #999;
+  padding: 1rem;
+}
+
+.accordion-link ul{
+  display:flex;
+  align-items: flex-end;
+  list-style-type: none;
+  margin-left: 25px;
+}
+
+.accordion-link li{
+  font-size: 0.7rem;
+  font-family: 'montserrat';
+  color: #999;
+  padding: 0 0 1px 5px;
+  letter-spacing: 0;
+}
+
+.item-title{
+  display: flex;
+  align-items: baseline;
+}
+
+.answer{
+  max-height: 0;
+  overflow: hidden;
+  position: relative;
+  transition: max-height 650ms;
+}
+
+.answer p{
+  color: #999;
+  font-size: 15px;
+  padding: 2rem;
+  font-family: 'montserrat';
+}
+
+.accordion-item:target .answer{
+  max-height: 30rem;
+}
+
+
+
+
+/* -----------------------FOOTER---------------------------- */
+
+.opvulling {
+    height: 1000px;
+    background-color: var(--blue);
+    opacity: 1;
+    margin-top: -50px;
+}
 
 /* -----------------------FOOTER---------------------------- */
 
