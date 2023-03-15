@@ -1,16 +1,5 @@
-.logo {
-    position: absolute;
-    top: 40px;
-    left: 50px;
-    display: block;
-    z-index: 11;
-    transition: all 250ms linear;
-}
-.logo img {
-    height: auto;
-    width: 150px;
-    display: block;
-}
+@import '/css/root.css';
+
 .section-center{
     position: absolute;
     top: 50%;
@@ -73,8 +62,8 @@
     z-index: 20;
     top: 0;
     left: 0;
-    border-top: 2px solid #ececee;
-    border-bottom: 2px solid #ececee;
+    border-top: 2px solid var(--lightgray);
+    border-bottom: 2px solid var(--lightgray);
     transition: border-width 100ms 1500ms ease, 
                 top 100ms 1600ms cubic-bezier(0.23, 1, 0.32, 1),
                 height 100ms 1600ms cubic-bezier(0.23, 1, 0.32, 1), 
@@ -91,7 +80,7 @@
     z-index: 20;
     top: 10px;
     right: 4px;
-    background-color: #ececee;
+    background-color: var(--lightgray);
     /* margin-top: -1px; */
     transition: width 100ms 1750ms ease, 
                 right 100ms 1750ms ease,
@@ -102,7 +91,7 @@
     top: 10px;
     transform: rotate(45deg);
     height: 2px;
-    background-color: #ececee;
+    background-color: var(--lightgray);
     border-width: 0;
     transition: border-width 100ms 340ms ease, 
                 top 100ms 300ms cubic-bezier(0.23, 1, 0.32, 1),
@@ -192,12 +181,12 @@
     font-weight: 800;
     display: inline-block;
     position: relative;
-    color: #ececee;
+    color: var(--lightgray);
       transition: all 250ms linear;
 }
 .nav ul li a:hover{
     text-decoration: none;
-    color: #ffeba7;
+    color: var(--yellow);
 }
 .nav ul li a:after{
     display: block;
@@ -208,7 +197,7 @@
     /* margin-top: -1vh; */
     width: 0;
     left: 0;
-    background-color: #353746;
+    background-color: var(--blue);
     opacity: 0.8;
     transition: width 250ms linear;
 }
