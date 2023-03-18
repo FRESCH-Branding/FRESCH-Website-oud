@@ -1,18 +1,38 @@
 @font-face {
-    font-family: Bebas-bold;
-    src: url(/input/fonts/Bebas/BebasNeue-Bold.otf);}
+    font-family: bold; 
+    src: url(/input/fonts/Montserrat/Montserrat-Bold.ttf);}
 @font-face {
-    font-family: Bebas-book;
-    src: url(/input/fonts/Bebas/BebasNeue-Light.otf);}
+    font-family: semi;
+    src: url(/input/fonts/Montserrat/Montserrat-SemiBold.ttf);}
 @font-face {
-    font-family: Bebas-regular;
-    src: url(/input/fonts/Bebas/BebasNeue-Book.otf);}
+    font-family: medium;
+    src: url(/input/fonts/Montserrat/Montserrat-Medium.ttf);}
+@font-face {
+    font-family: regular;
+    src: url(/input/fonts/Montserrat/Montserrat-Regular.ttf);}
+@font-face {
+    font-family: light;
+    src: url(/input/fonts/Montserrat/Montserrat-Light.ttf);}
 
 :root {
-    --lightgray: #aaa;
-    --gray: #555 ;
-    --yellow: #ffeba7;
-    --blue: #353746;
+    --darkgray: #383838;
+    --lightgray: #AAA;
+    --yellow: #F3D250;
+    --lightyellow: #FFEBA7;
+    --white: #FFF;
+
+    --title: 5rem;
+    --header: 3rem;
+    --subheader: 1,75rem;
+    --body: 1,25rem;
+    --subtitle: 1rem;
+    
+    --bold: bold;
+    --semi: semi;
+    --medium: medium;
+    --regular: regular;
+    --book: light;
+
 }
 
 * {
@@ -23,6 +43,10 @@
     scrollbar-width: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
+}
+
+body{
+    background-color: #FBFBFB;
 }
 
 *::-webkit-scrollbar {
