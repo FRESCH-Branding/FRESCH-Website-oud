@@ -32,8 +32,6 @@
 
 .FRESCH-intro {
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
 }
 
 .intro-video {
@@ -50,6 +48,36 @@
   margin-left: -3%;
   z-index: -1;
 }
+
+/* --------------------------------------------------- */
+
+ .expertise-titel {
+   font-family: var(--bold);
+   font-size: var(--title);
+   color: var(--darkgray);
+
+   text-align: center;
+   padding-top: 10vh;
+  }
+
+  .expertise {
+    display: grid;
+    width: var(--width);
+    grid-template-columns: repeat(3, 25vw);
+    margin: auto;
+    padding-top: 5vh;
+
+  }
+
+  .grid-item {
+    width: 85%;
+    text-align: center;
+  }
+
+  .grid-item i {
+    color: var(--yellow);
+    
+  }
 
 
 /* --------------------------------------------------- */

@@ -23,8 +23,8 @@
 
     --title: 5rem;
     --header: 3rem;
-    --subheader: 1,75rem;
-    --body: 1,25rem;
+    --subheader: 1.5rem;
+    --body: 1.25rem;
     --subtitle: 1rem;
     
     --bold: bold;
@@ -33,6 +33,7 @@
     --regular: regular;
     --book: light;
 
+    --width: 75vw;
 }
 
 * {
@@ -53,4 +54,38 @@ body{
     display: none;
 }
 
+h1 {
+  /*  titel  */
+  font-size: var(--title);
+  font-family: var(--bold);
+  color: var(--darkgray);
+}
 
+h2 {
+    /* header */
+    font-size: var(--header);
+    font-family: var(--bold);
+    color: var(--darkgray);
+    margin: 2.5vh auto;
+}
+
+h3 {
+    /* subheader */
+    font-size: var(--subheader);
+    font-family: var(--medium);
+    color: var(--darkgray);
+}
+
+p {
+    /* body */
+    font-size: var(--body);
+    font-family: var(--regular);
+    color: var(--darkgray);
+    letter-spacing: 1.4px;
+    line-height: 23px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--darkgray);
+}
