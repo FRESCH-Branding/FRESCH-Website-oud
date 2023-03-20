@@ -23,7 +23,7 @@
 
     --title: 5rem;
     --header: 3rem;
-    --subheader: 1.5rem;
+    --subheader: 1.75rem;
     --body: 1.25rem;
     --subtitle: 1rem;
     
@@ -50,9 +50,24 @@ body{
     background-color: #FBFBFB;
 }
 
+
+/* scrollbar */
 *::-webkit-scrollbar {
-    display: none;
+    width: 10px;
 }
+
+::-webkit-scrollbar-track {
+    background: #FBFBFB; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--lightgray); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--darkgray); 
+}
+/* scrollbar */
 
 h1 {
   /*  titel  */
@@ -66,7 +81,6 @@ h2 {
     font-size: var(--header);
     font-family: var(--bold);
     color: var(--darkgray);
-    margin: 2.5vh auto;
 }
 
 h3 {

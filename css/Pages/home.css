@@ -49,16 +49,19 @@
   z-index: -1;
 }
 
-/* --------------------------------------------------- */
+/* -------------------------- TITELS ------------------------- */
 
- .expertise-titel {
+ .expertise-titel,
+ .portfolio-titel {
    font-family: var(--bold);
    font-size: var(--title);
    color: var(--darkgray);
 
    text-align: center;
-   padding-top: 10vh;
+   padding-top: 15vh;
   }
+
+  /* --------------------------------------------------- */
 
   .expertise {
     display: grid;
@@ -69,16 +72,75 @@
 
   }
 
-  .grid-item {
+  .expertise-subheader {
+    margin: 2.5vh auto;
+  }
+
+  .expertise-item {
     width: 85%;
+    display: grid;
     text-align: center;
   }
 
-  .grid-item i {
+  .expertise-item i {
     color: var(--yellow);
     
   }
 
+.lees-meer-knop {
+  background-image: url(/input/images/schild-grijs.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 10%;
+  margin: auto;
+}
+
+.lees-meer-knop i {
+  margin-top: 50%;
+  margin-bottom: 50%;
+  color: var(--darkgray);
+  font-size: 1.6rem;
+}
+
+/* --------------------------------------------------- */
+
+.portfolio {
+  display: grid;
+  width: 1440px;
+  grid-template-columns: repeat(2, 690px);
+  column-gap: 60px;
+
+  margin: 5vh auto;
+}
+
+.portfolio-item {
+  width: 690px;
+  height: 450px;
+  /* background-color: var(--darkgray); */
+  position: relative;
+}
+
+.case-2,
+.case-4 {
+  margin-top: 60px;
+}
+
+.bekijk-meer {
+  position: absolute;
+  width: 5%;
+  right: 15px;
+  top: 15px;
+}
+
+.case-subheader {
+  margin: 5px auto auto 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.portfolio-item p {
+  margin: auto 20px;
+}
 
 /* --------------------------------------------------- */
 
