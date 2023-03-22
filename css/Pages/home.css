@@ -21,6 +21,34 @@
   height: auto;
 }
 
+.slogan {
+  text-align: center;
+}
+
+.slogan span {
+  color: var(--yellow);
+}
+
+.go-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.go-down i {
+  color: var(--darkgray);
+  font-size: 1.4rem;
+  position: absolute;
+  cursor: pointer;
+}
+
+.go-down img {
+  width: 2%;
+  cursor: pointer;
+
+}
+
 /* --------------------------------------------------- */
 
 .intro-background svg{

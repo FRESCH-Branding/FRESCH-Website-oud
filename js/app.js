@@ -20,6 +20,13 @@ function delay(URL) {
   }, 500);
 }
 
+var intro = document.getElementById("intro");
+intro.addEventListener("click", scrollToIntro);
+
+function scrollToIntro() {
+  intro.scrollIntoView({ behavior: "smooth", block: "center" });
+}
+
 // navigation animation
 const navigationSlide = () => {
   const burger = document.querySelector(".Burger-menu");

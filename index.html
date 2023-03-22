@@ -77,8 +77,8 @@
       <label for="menu-icon"></label>
       <nav class="nav">
         <ul class="pt-5">
-          <li><a href="javascript:delay('./index.html')">Home</a></li>
-          <li><a href="javascript:delay('./over.html')">FRESCH</a></li>
+          <li><a href="javascript:delay('/index.html')">Home</a></li>
+          <li><a href="javascript:delay('/over.html')">FRESCH</a></li>
           <li><a href="javascript:delay('/werk.html')">Werk</a></li>
           <li><a href="javascript:delay('/contact.html')">Contact</a></li>
         </ul>
@@ -98,11 +98,20 @@
         src="/input/FRESCH Logo/FRESCH_Detailed_Logo_Grey.png"
         alt="FRESCH BRANDING"
       />
+
+      <div class="slogan">
+        <h3>Verfrissende <span>branding</span>.</h3>
+        <h3>Start met Fresch!</h3>
+        <div class="go-down" onclick="scrollToIntro()">
+          <img src="/input/images/schild-grijs.svg" alt="" />
+          <i class="fa-solid fa-arrow-down"></i>
+        </div>
+      </div>
     </div>
 
     <!-- ------------------------------------------------------------- -->
 
-    <div class="FRESCH-intro">
+    <div class="FRESCH-intro" id="intro">
       <div class="intro-video">
         <img
           src="/input/images/schild-achtergrond.svg"
@@ -129,7 +138,6 @@
         </p>
         <br />
         <a href="" class="lees-meer-knop">
-          <!-- <img src="/input/images/schild-grijs.svg" alt="" class="lees-meer" /> -->
           <i class="fa-solid fa-plus"></i>
         </a>
       </div>
@@ -146,7 +154,6 @@
         </p>
         <br />
         <a href="" class="lees-meer-knop">
-          <!-- <img src="/input/images/schild-grijs.svg" alt="" class="lees-meer" /> -->
           <i class="fa-solid fa-plus"></i>
         </a>
       </div>
@@ -163,7 +170,6 @@
         </p>
         <br />
         <a href="" class="lees-meer-knop">
-          <!-- <img src="/input/images/schild-grijs.svg" alt="" class="lees-meer" /> -->
           <i class="fa-solid fa-plus"></i>
         </a>
       </div>
