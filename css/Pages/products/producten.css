@@ -1,0 +1,42 @@
+@import '/css/root.css';
+
+.logo-1,
+.logo-2 {
+    margin: 100px auto;
+}
+
+/* .product-body {
+    padding-top: 50px;
+} */
+
+.product-background {
+    background-color: var(--darkgray);
+    /* width: 75vw; */
+    height: 600px;
+    position: absolute;
+    z-index: -1;
+}
+
+.product-omschrijving {
+    margin-top: 50px;
+    border-right: 4px solid var(--white);
+    height: 500px;
+    color: var(--white);
+}
+
+.product-omschrijving h3,
+.product-omschrijving p {
+    color: var(--white);
+}
+
+.product-image {
+    margin-top: 50px;
+}
+
+.image-column {
+    margin-bottom: 150px;
+}
+
+.img-2 {
+    margin-top: 50px;
+}
