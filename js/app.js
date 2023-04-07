@@ -20,42 +20,18 @@ function delay(URL) {
   }, 500);
 }
 
-var intro = document.getElementById("intro");
-intro.addEventListener("click", scrollToIntro);
+// smooth go to intro scroll
+const intro = document.getElementById("intro");
 
 function scrollToIntro() {
   intro.scrollIntoView({ behavior: "smooth", block: "center" });
+  console.log("click");
 }
 
-// navigation animation
-const navigationSlide = () => {
-  const burger = document.querySelector(".Burger-menu");
-  const nav = document.querySelector(".Nav-links");
-  const navLinks = document.querySelectorAll(".Nav-links li");
+// smooth go to top scroll
+const navbar = document.getElementById("navbar");
 
-  //toggle nav
-  burger.addEventListener("click", () => {
-    nav.classList.toggle("nav-active");
-
-    //links animation
-    navLinks.forEach((link, index) => {
-      if (link.style.animation) {
-        link.style.animation = "";
-      } else {
-        link.style.animation = `Nav-links-fade 0.5s ease forwards ${
-          index / 7 + 0.3
-        }s`;
-      }
-    });
-  });
-};
-
-navigationSlide();
-
-// go to top button
-let mybutton = document.getElementById("top-button");
-
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+function scrollToNavbar() {
+  navbar.scrollIntoView({ behavior: "smooth", block: "start" });
+  console.log("click2");
 }

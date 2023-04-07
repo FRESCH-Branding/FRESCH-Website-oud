@@ -1,0 +1,223 @@
+@import '/css/root.css';
+
+.Home-logo {
+  width: 100%;
+  height: 100vh;
+}
+
+.Front-logo-1 {
+  position: relative;
+  display: block;
+  padding: 150px 0;
+  margin: auto;
+}
+
+.Front-logo-2 {
+  display: none;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 200px;
+  height: auto;
+}
+
+.slogan {
+  text-align: center;
+}
+
+.slogan span {
+  color: var(--yellow);
+}
+
+.go-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.go-down i {
+  color: var(--darkgray);
+  font-size: 1.4rem;
+  position: absolute;
+  cursor: pointer;
+}
+
+.go-down img {
+  width: 2%;
+  cursor: pointer;
+
+}
+
+/* --------------------------------------------------- */
+
+.intro-background svg{
+  height: 100vh;
+  width: 35%;
+  fill: var(--lightgray);
+  /* margin-top: -130px; */
+}
+
+.FRESCH-intro {
+  display: flex;
+}
+
+.intro-video {
+  width: 95vw;
+  height: 90vh;
+  background-color: var(--yellow);
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.intro-schild {
+  width: 30%;
+  margin-left: -3%;
+  z-index: -1;
+}
+
+/* -------------------------- TITELS ------------------------- */
+
+ .expertise-titel,
+ .portfolio-titel,
+ .contact-titel {
+   font-family: var(--bold);
+   font-size: var(--title);
+   color: var(--darkgray);
+
+   text-align: center;
+   padding-top: 15vh;
+  }
+
+  /* --------------------------------------------------- */
+
+  .expertise {
+    display: grid;
+    justify-items: center;
+    width: var(--width);
+    grid-template-columns: repeat(3, 25vw);
+    margin: auto;
+    padding-top: 5vh;
+
+  }
+
+  .expertise-subheader {
+    margin: 2.5vh auto;
+  }
+
+  .expertise-item {
+    width: 85%;
+    display: grid;
+    text-align: center;
+  }
+
+  .expertise-item i {
+    color: var(--yellow);
+    
+  }
+
+.lees-meer-knop {
+  background-image: url(/input/images/schild-grijs.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 10%;
+  margin: auto;
+}
+
+.lees-meer-knop i {
+  margin-top: 50%;
+  margin-bottom: 50%;
+  color: var(--darkgray);
+  font-size: 1.6rem;
+}
+
+/* --------------------------------------------------- */
+
+.portfolio {
+  display: grid;
+  width: 1440px;
+  grid-template-columns: repeat(2, 690px);
+  column-gap: 60px;
+
+  margin: 5vh auto;
+}
+
+.portfolio-item {
+  width: 690px;
+  height: 450px;
+  /* background-color: var(--darkgray); */
+  position: relative;
+}
+
+.case-2,
+.case-4 {
+  margin-top: 60px;
+}
+
+.bekijk-meer {
+  position: absolute;
+  width: 5%;
+  right: 15px;
+  top: 15px;
+}
+
+.case-subheader {
+  margin: 5px auto auto 15px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.portfolio-item p {
+  margin: auto 15px;
+}
+
+.case-naam {
+  display: flex;
+  align-items: center;
+}
+
+.case-link {
+  font-family: var(--regular);
+  font-size: var(--body);
+  color: var(--yellow);
+}
+
+.case-link i {
+  margin: auto 15px;
+}
+
+.case-link:hover {
+  color: var(--darkgray);
+}
+
+/* --------------------------------------------------- */
+
+.contact {
+  display: flex;
+  justify-content: center;
+  margin: 20vh auto 25vh auto;
+}
+
+.contact svg{
+  display: block;
+  width: 10%;
+  position: absolute;
+  margin-top: -5vh;
+}
+
+.contact-titel {
+  padding: 0;
+  z-index: 1;
+}
+
+.contact-button {
+  position: relative;
+  font-family: var(--medium);
+  /* z-index: 1; */
+}
+.contact-button:hover {
+  color: var(--yellow);
+}
+
+/* --------------------------------------------------- */

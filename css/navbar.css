@@ -1,18 +1,5 @@
 @import '/css/root.css';
 
-.section-center{
-    position: absolute;
-    top: 50%;
-    left: 0;
-    display: block;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    z-index: 6;
-    text-align: center;
-    transform: translateY(-50%);
-}
-
 .nav{
     position: fixed;
     top: 20px;

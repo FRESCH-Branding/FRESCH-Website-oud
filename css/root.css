@@ -14,12 +14,20 @@
     font-family: light;
     src: url(/input/fonts/Montserrat/Montserrat-Light.ttf);}
 
+@font-face {
+    font-family: Playfair-regular;
+    src: url(/input/fonts/Playfair/PlayfairDisplay-Regular.ttf);}
+@font-face {
+    font-family: Playfair-bold;
+    src: url(/input/fonts/Playfair/PlayfairDisplay-Bold.ttf);}
+
 :root {
     --darkgray: #383838;
     --lightgray: #AAA;
     --yellow: #F3D250;
     --lightyellow: #FFEBA7;
     --white: #FFF;
+    --background: #FBFBFB;
 
     --title: 5rem;
     --header: 3rem;
@@ -32,6 +40,9 @@
     --medium: medium;
     --regular: regular;
     --book: light;
+
+    --playfair-R: Playfair-regular;
+    --playfair-B: Playfair-bold;
 
     --width: 75vw;
 }
@@ -47,7 +58,7 @@
 }
 
 body{
-    background-color: #FBFBFB;
+    background-color: var(--background);
 }
 
 
@@ -74,6 +85,8 @@ h1 {
   font-size: var(--title);
   font-family: var(--bold);
   color: var(--darkgray);
+  padding-bottom: 50px;
+  margin: 0;
 }
 
 h2 {
@@ -81,13 +94,15 @@ h2 {
     font-size: var(--header);
     font-family: var(--bold);
     color: var(--darkgray);
+    margin: 0;
 }
 
 h3 {
     /* subheader */
     font-size: var(--subheader);
-    font-family: var(--medium);
+    font-family: var(--semi);
     color: var(--darkgray);
+    margin: 0;
 }
 
 p {
@@ -97,9 +112,33 @@ p {
     color: var(--darkgray);
     letter-spacing: 1.4px;
     line-height: 23px;
+    margin: 0;
 }
 
 a {
+    /* links */
     text-decoration: none;
     color: var(--darkgray);
+    margin: 0;
+}
+
+@media (max-width: 992px) {
+    :root {
+   
+        --title: 4rem;
+        --header: 2.4rem;
+        --subheader: 1.4rem;
+        --body: 1rem;
+        --subtitle: 0.8rem;
+    }
+}
+@media (max-width: 576px) {
+    :root {
+   
+        --title: 3rem;
+        --header: 1.8rem;
+        --subheader: 1rem;
+        --body: 0.75rem;
+        --subtitle: 0.6rem;
+    }
 }
