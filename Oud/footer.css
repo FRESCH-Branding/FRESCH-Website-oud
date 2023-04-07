@@ -1,0 +1,149 @@
+footer {
+    background-image: url(/input/images/footer-background.svg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    height: 570px;
+    padding-top: 50px;
+}
+
+.footer-container {
+    position: relative;
+}
+
+.top-button {
+    display: block;
+    background-image: url(/input/images/schild-wit.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75px 100px;
+
+    height: 100px;
+}
+
+.arrow {
+    display: block;
+    position: relative;
+    font-family: 'montserrat';
+    color: white;
+    font-size: 3em;
+    line-height: 90px;
+}
+.arrow-button {
+    width: 27px;
+    margin: auto;
+    cursor: pointer;
+    transition: top ease 0.5s;
+    transition: transform ease 300ms;
+}
+
+.arrow-button:hover {
+    transform: translate(0, -10px)
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 15vw);
+
+    width: 30vw;
+    margin: auto;
+    padding-top: 80px;
+
+    list-style-type: none;
+}
+
+
+/* menu grid */
+.footer-grid a {
+    font-family: 'montserrat';
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footer-grid a:hover {
+    color: var(--yellow);
+}
+
+.footer-grid li {
+    margin: 10px;
+}
+
+.footer-menu {
+    display: grid;
+    justify-content: center;
+}
+
+.footer-voorwaardes {
+    display: grid;
+    row-gap: 48px;
+    justify-content: center;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons li {
+    width: 50px;
+    height: 50px;
+}
+
+.social-icons li a{
+    fill: white;
+
+}
+
+.social-icons li a:hover{
+    fill: var(--yellow);
+}
+
+
+/* belangrijke documenten */
+.voorwaardes {
+    display: grid;
+    /* align-items: end; */
+}
+
+.voorwaardes a{
+    color: var(--gray);
+    font-size: 1.1em;
+}
+
+.voorwaardes a:hover{
+    color: var(--lightgray);
+}
+
+
+/* contact information */
+.footer-contact {
+    display: flex;
+    white-space: nowrap;
+    margin-left: 50%;
+    margin-right: 50%;
+    justify-content: center;
+}
+
+.contact-container {
+    display: flex;
+    padding-top: 100px;
+}
+
+.contact-item {
+    margin:0 20px 0 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.contact-item a {
+    color: white;
+    font-size: 1em;
+    font-family: 'montserrat';
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.contact-item a:hover {
+    color: var(--yellow);
+}

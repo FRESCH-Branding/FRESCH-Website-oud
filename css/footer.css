@@ -1,149 +1,88 @@
-footer {
-    background-image: url(/input/images/footer-background.svg);
-    background-size: 100vw;
-    background-repeat: no-repeat;
-    height: 570px;
-    padding-top: 50px;
-}
+@import '/css/root.css';
 
 .footer-container {
-    position: relative;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer-background-con,
+.footer-background-row,
+.footer-background-col {
+    margin: 0;
+    padding: 0;
 }
 
 .top-button {
-    display: block;
-    background-image: url(/input/images/schild-wit.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 75px 100px;
-
-    height: 100px;
+    margin: 3vw auto 8vw auto;
+}
+.top-button-text {
+    color: var(--white);
+    margin-top: 15px;
+    margin-bottom: -30px;
 }
 
-.arrow {
-    display: block;
-    position: relative;
-    font-family: 'montserrat';
-    color: white;
-    font-size: 3em;
-    line-height: 90px;
-}
-.arrow-button {
-    width: 27px;
-    margin: auto;
+.up-button {
     cursor: pointer;
+    width: 3vw;
     transition: top ease 0.5s;
     transition: transform ease 300ms;
 }
 
-.arrow-button:hover {
+.up-button:hover {
     transform: translate(0, -10px)
 }
 
-.footer-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 15vw);
+.footer-input,
+.footer-input a {
+    margin: 0;
+    padding: 0;
+    padding-top: -40px;
+    /* margin-top: -40px; */
+    color: var(--white);
+}
 
-    width: 30vw;
-    margin: auto;
-    padding-top: 80px;
+.footer-logo img {
+    width: 60%;
+}
 
-    list-style-type: none;
+.footer-icons img {
+    width: 30px;
+    margin: auto 10px;
 }
 
 
-/* menu grid */
-.footer-grid a {
-    font-family: 'montserrat';
-    color: white;
-    font-size: 1.5em;
-    text-decoration: none;
-    list-style-type: none;
+/* footer media query */
+@media (max-width: 1600px) {
+    .top-button {
+        margin: 3vw auto 7vw auto;
+    }
+    
 }
 
-.footer-grid a:hover {
-    color: var(--yellow);
+@media (max-width: 992px) {
+    .top-button-text {
+        display: none;
+    }
 }
 
-.footer-grid li {
-    margin: 10px;
-}
+@media (max-width: 576px) {
+    .top-button {
+        margin: 3vw auto 8vw auto;
+    }
+    
+    .up-button {
+        width: 7vw;
+    }
+    
+    .footer-icons img {
+        width: 15px;
+    }
 
-.footer-menu {
-    display: grid;
-    justify-content: center;
-}
-
-.footer-voorwaardes {
-    display: grid;
-    row-gap: 48px;
-    justify-content: center;
-}
-
-.social-icons {
-    display: flex;
-}
-
-.social-icons li {
-    width: 50px;
-    height: 50px;
-}
-
-.social-icons li a{
-    fill: white;
-
-}
-
-.social-icons li a:hover{
-    fill: var(--yellow);
-}
-
-
-/* belangrijke documenten */
-.voorwaardes {
-    display: grid;
-    /* align-items: end; */
-}
-
-.voorwaardes a{
-    color: var(--gray);
-    font-size: 1.1em;
-}
-
-.voorwaardes a:hover{
-    color: var(--lightgray);
-}
-
-
-/* contact information */
-.footer-contact {
-    display: flex;
-    white-space: nowrap;
-    margin-left: 50%;
-    margin-right: 50%;
-    justify-content: center;
-}
-
-.contact-container {
-    display: flex;
-    padding-top: 100px;
-}
-
-.contact-item {
-    margin:0 20px 0 20px;
-    display: flex;
-    align-items: center;
-
-}
-
-.contact-item a {
-    color: white;
-    font-size: 1em;
-    font-family: 'montserrat';
-    text-decoration: none;
-    letter-spacing: 1px;
-}
-
-.contact-item a:hover {
-    color: var(--yellow);
+    @media (max-width: 576px) {
+        .footer-icons img {
+            width: 15px;
+        }    
+    }
+    
 }
