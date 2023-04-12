@@ -1,0 +1,214 @@
+@import '/css/root.css';
+
+.logo-1,
+.logo-2 {
+    margin: 100px auto;
+}
+
+.portfolio-slogan h2{
+    color: var(--yellow);
+    margin: 50px auto;
+}
+
+.product-background {
+    background-color: var(--darkgray);
+    height: 600px;
+    position: absolute;
+    z-index: -1;
+    padding: 0;
+}
+
+/* product omschrijfing */
+.product-omschrijving {
+    margin-top: 50px;
+    border-right: 4px solid var(--white);
+    height: 500px;
+    color: var(--white);
+}
+
+.product-omschrijving h3,
+.product-omschrijving p {
+    color: var(--white);
+}
+
+/* bedrijfsomschrijving */
+.bedrijf-omschrijving {
+    margin-top: 100px;
+}
+
+.bedrijf-omschrijving h3 {
+    color: var(--yellow);
+}
+
+.product-omschrijving h3:hover {
+    color: var(--yellow);
+}
+
+.bedrijf-omschrijving p {
+    color: var(--darkgray);
+}
+
+.bezoek-link a,
+.bezoek-link p {
+    color: var(--white);
+    display: inline;
+}
+
+.bezoek-link:hover a,
+.bezoek-link:hover p {
+    color: var(--yellow);
+}
+
+.product-image {
+    margin-top: 50px;
+}
+
+.portfolio-row {
+    margin-top: 65px;
+    margin-bottom: 50px;
+} 
+
+.portfolio-item {
+    margin: 0;
+    padding: 0;
+}
+
+/* logo items */
+.logo-item-1,
+.logo-item-4 {
+    padding-right: 10px;
+}
+
+.logo-item-2 {
+    padding: 0 5px 15px 5px;
+}
+
+.logo-item-5 {
+    padding: 0 5px 0 5px;
+}
+
+.logo-item-3,
+.logo-item-6 {
+    padding-left: 10px;
+}
+
+/* bekijk meer knop */
+.see-more {
+    width: 30px;
+    position: absolute;
+}
+
+.see-more-1,
+.see-more-4 {
+    margin: 15px 0 0 15px;
+}
+
+.see-more-2,
+.see-more-5 {
+    margin: 15px 0 0 20px;
+}
+
+.see-more-3,
+.see-more-6 {
+    margin: 15px 0 0 25px;
+}
+
+.contact-container {
+    /* position: relative; */
+    background-image: url(/input/images/schild-geel.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    margin: 150px auto;
+}
+    
+.contact-header {
+    margin-top: 50px;
+}
+
+.contact-button {
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+.contact-button a:hover {
+    color: var(--yellow);
+}
+    
+
+
+
+
+
+@media (max-width: 1800px) {
+    .product-background,
+    .container-width {
+        width: 80vw;
+    }
+}
+@media (max-width: 1700px) {
+    .product-background,
+    .container-width {
+        width: 85vw;
+    }
+}
+@media (max-width: 1600px) {
+    .product-background,
+    .container-width {
+        width: 90vw;
+    }
+}
+@media (max-width: 1500px) {
+    .product-background,
+    .container-width {
+        width: 93vw;
+    }
+}
+@media (max-width: 1400px) {
+    .product-background,
+    .container-width {
+        width: 95vw;
+    }
+}
+@media (max-width: 1200px) {
+    .logo-item {
+        margin: 0;
+        padding: 25px;
+    }
+    .see-more {
+        margin: 40px;
+    }
+}
+
+
+
+
+/* Klein scherm */
+@media (max-width: 768px) {
+    .product-omschrijving {
+        border-right: 0px solid var(--white);
+        border-bottom: 4px solid var(--white);
+        height: auto;
+        padding-bottom: 50px;
+        color: var(--white);
+    }
+
+    .logo-item {
+        width: 75%;
+        margin: 50px 0;
+        padding: 0;
+    }
+
+    .see-more {
+        margin: 65px 15px;
+    }
+
+    .product-background {
+        width: 100vw;
+    }
+
+    .bedrijf-omschrijving,
+    .bezoek-link {
+        display: none;
+    }
+}

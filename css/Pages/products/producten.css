@@ -26,6 +26,12 @@
     color: var(--white);
 }
 
+.terug-button img{
+    width: 40px;
+    margin-top: -50px;
+    cursor: pointer;
+}
+
 /* bedrijfsomschrijving */
 .bedrijf-omschrijving {
     margin-top: 100px;
