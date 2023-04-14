@@ -8,6 +8,7 @@
 .portfolio-slogan h2{
     color: var(--yellow);
     margin: 50px auto;
+    text-transform: uppercase;
 }
 
 .product-background {
@@ -22,7 +23,7 @@
 .product-omschrijving {
     margin-top: 50px;
     border-right: 4px solid var(--white);
-    height: 500px;
+    height: 450px;
     color: var(--white);
 }
 
@@ -46,6 +47,12 @@
 
 .bedrijf-omschrijving p {
     color: var(--darkgray);
+}
+
+.bezoek-link {
+    height: 50px;
+    line-height: 75px;
+    border-right: 4px solid var(--white);
 }
 
 .bezoek-link a,
@@ -191,6 +198,10 @@
         height: auto;
         padding-bottom: 50px;
         color: var(--white);
+    }
+
+    .bezoek-link {
+        border-right: 0px solid var(--white);
     }
 
     .logo-item {

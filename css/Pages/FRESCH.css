@@ -1,0 +1,111 @@
+@import '/css/root.css';
+
+.logo-1,
+.logo-2 {
+    margin: 100px auto;
+}
+
+.portfolio-slogan h2{
+    color: var(--yellow);
+    margin: 50px auto 10px auto;
+    text-transform: uppercase;
+}
+
+.fresch-intro {
+    letter-spacing: 2px;
+    line-height: 1.6rem;
+    margin-bottom: 100px;
+}
+
+.fresch-foto {
+    width: 25vw;
+    position: absolute;
+    margin: -25% 0 0 0;
+    padding: 0;
+}
+
+.fresch-container {
+    height: 1300px;
+    background-color: var(--darkgray);
+    border-radius: 0 0 50vw 50vw;
+}
+
+.kenmerken-col {
+    margin-top: 50px;
+}
+
+.kenmerken {
+    margin: 15px 15px 15px 0;
+    padding: 0;
+}
+
+.kenmerken-icon {
+    width: 30px;
+}
+
+.kenmerken h3{
+    display: inline;
+    color: var(--white);
+    margin-left: 20px;
+}
+
+.line {
+    margin: 75px 0;
+    border-bottom: 4px solid var(--white);
+}
+
+.over-fresch {
+    margin-top: 50px;
+}
+
+.over-fresch h2 {
+    color: var(--white);
+}
+
+.over-fresch h4 {
+    color: var(--white);
+    width: 60%;
+}
+
+.over-fresch p {
+    color: var(--white);
+    letter-spacing: 2px;
+    line-height: 1.6rem;
+}
+
+.portfolio-call {
+    margin-top: 100px;
+    color: var(--white);
+}
+
+.portfolio-button {
+    color: var(--white);
+    padding-top: 100px;
+}
+
+.portfolio-button img {
+    width: 30px;
+    margin: 5px;
+}
+
+.team-container {
+    /* position: relative; */
+    background-image: url(/input/images/schild-geel.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    margin: 150px auto;
+}
+    
+.team-header {
+    margin-top: 50px;
+}
+
+.contact-button {
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+.contact-button a:hover {
+    color: var(--yellow);
+}
