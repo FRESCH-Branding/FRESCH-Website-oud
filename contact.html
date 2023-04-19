@@ -91,50 +91,52 @@
     </div>
 
     <div class="container info-container">
-      <div class="row">
-        <div class="col-7"></div>
-        <div class="col-5 form-column">
+      <div class="row justify-content-center">
+        <div class="col-12 col-xl-5 test">
+          <h2>FRESCH</h2>
+          <h2>BRANDING</h2>
+          <br />
+          <div class="contact-info">
+            <h4>Contactinfo:</h4>
+            <a
+              href="mailto:info@freschbranding.nl"
+              title="E-mail"
+              target="_blank"
+            >
+              info@freschbranding.nl
+            </a>
+            <br />
+            <a href="tel:+31613335342" title="Telefoon"> 06 13 33 53 42 </a>
+          </div>
+          <br />
+          <p>Bakelgeertstraat 15</p>
+          <p>5831 CS, Boxmeer</p>
+          <br />
+          <p>KVK:</p>
+          <p>BTW:</p>
+        </div>
+        <div class="col-12 col-xl-5 form-column text-center">
           <form action="form-to-email.php" method="POST" class="contact-form">
-            <div class="form-grid">
-              <div class="links">
-                <p type="Naam:">
-                  <input
-                    type="text"
-                    placeholder="Je naam:"
-                    name="naam"
-                    required
-                  />
-                </p>
+            <p type="Naam:">
+              <input type="text" placeholder="Naam:" name="naam" required />
+            </p>
 
-                <p type="Mobiel:">
-                  <input
-                    type="tel"
-                    placeholder="Telefoonnummer:"
-                    name="telefoonnummer"
-                    required
-                  />
-                </p>
-              </div>
+            <p type="E-mail:">
+              <input type="email" placeholder="E-mail:" name="email" required />
+            </p>
 
-              <div class="rechts">
-                <p type="E-mail:">
-                  <input
-                    type="email"
-                    placeholder="E-mailadres:"
-                    name="email"
-                    required
-                  />
-                </p>
+            <p type="Bedrijf:">
+              <input
+                type="text"
+                placeholder="Bedrijf:"
+                name="bedrijfsnaam"
+                required
+              />
+            </p>
 
-                <p type="Onderwerp:">
-                  <input
-                    type="text"
-                    placeholder="Onderwerp:"
-                    name="onderwerp"
-                  />
-                </p>
-              </div>
-            </div>
+            <p type="Onderwerp:">
+              <input type="text" placeholder="Onderwerp:" name="onderwerp" />
+            </p>
 
             <p type="Bericht:">
               <textarea
@@ -143,8 +145,7 @@
                 required
               ></textarea>
             </p>
-
-            <input type="submit" value="Versturen" class="submit" />
+            <input type="submit" value="" class="submit" id="submit-button" />
           </form>
         </div>
       </div>

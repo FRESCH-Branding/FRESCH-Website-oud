@@ -105,6 +105,14 @@ h3 {
     margin: 0;
 }
 
+h4 {
+    /* subheader */
+    font-size: var(--body);
+    font-family: var(--semi);
+    color: var(--darkgray);
+    margin: 0;
+}
+
 p {
     /* body */
     font-size: var(--body);

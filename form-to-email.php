@@ -35,8 +35,8 @@ try {
     $mail->Subject = $_POST['onderwerp'];
     $mail->Body    = 
         $_POST['naam'].'<br>'.
-        $_POST['telefoonnummer'].'<br>'.
-        $_POST['email'].'<br>'.
+        $_POST['email'].'<br>'.'<br>'.
+        $_POST['bedrijfsnaam'].
         '<br><br>'.
         $_POST['bericht'];
     
