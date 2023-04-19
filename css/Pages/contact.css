@@ -4,3 +4,27 @@
 .logo-2 {
     margin: 100px auto;
 }
+
+.form-column {
+    background-image: url(/input/images/schild-geel.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: 100% auto; */
+    height: 700px;
+}
+
+/* test */
+
+
+
+.maps-container {
+    background-color: green;
+    height: 30vh;
+    margin: 150px auto;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+    height: 400px; /* The height is 400 pixels */
+    width: 100%; /* The width is the width of the web page */
+}
