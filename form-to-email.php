@@ -18,7 +18,7 @@ try {
     $mail->Host       = 'smtp.mijndomein.nl';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
     $mail->Username   = 'info@freschbranding.nl';                     //SMTP username
-    $mail->Password   = '*Freschbranding98!';                               //SMTP password
+    $mail->Password   = '';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;            //Enable implicit TLS encryption
     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
