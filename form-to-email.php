@@ -17,10 +17,14 @@ try {
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.mijndomein.nl';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'info@freschbranding.nl';                     //SMTP username
+    $mail->Username   = '';                     //SMTP username
     $mail->Password   = '';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;            //Enable implicit TLS encryption
     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
+
+    if (file_exists(__DIR__ . '/config.local.php')) {
+        require_once(__DIR__ . '/config.local.php');
+    }
 
     //Recipients
     $mail->setFrom('info@freschbranding.nl', $_POST['naam']);
