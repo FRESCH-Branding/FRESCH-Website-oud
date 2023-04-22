@@ -16,7 +16,6 @@
 
 .contact-info a:hover { 
     color: var(--yellow);
-
 }
 
 
@@ -66,7 +65,8 @@ textarea::placeholder {
     font-size: .9rem;
 }
 
-input:focus{
+input:focus,
+textarea:focus{
     border: 2px;
     outline-color: var(--yellow)
 }
