@@ -1,2 +1,5 @@
 #local php files
 /config.local.php
+
+#google maps api
+/js/google-maps.js
