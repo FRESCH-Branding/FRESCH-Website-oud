@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      href="/input/FRESCH Logo/icon/FRESCH_icon_minimal_Grey.png"
+      type="image/icon type"
+    />
+
+    <!-- Font Aweseome -->
+    <script
+      src="https://kit.fontawesome.com/4010060b99.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap css & js-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+
+    <!-- css links -->
+    <link rel="stylesheet" href="/Portfolio/style.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Portfolio - FRESCH BRANDING</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top p-0">
+      <div class="container-fluid navbar-container">
+        <a class="navbar-brand" href="./index.html">
+          <img
+            class="img-fluid"
+            src="/input/FRESCH Logo/Logo-naam.svg"
+            alt="FRESCH BRANDING"
+          />
+        </a>
+      </div>
+    </nav>
+
+    <div class="container header-container" id="navbar">
+      <div class="row justify-content-center">
+        <div class="col-4 align-self-center d-none d-md-block">
+          <img class="logo-1" src="/input/FRESCH Logo/Logo-screen.svg" alt="" />
+        </div>
+        <div class="col-6 align-self-center d-block d-md-none">
+          <img class="logo-2" src="/input/FRESCH Logo/Logo-mobile.svg" alt="" />
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col" id="slogan">
+          <h3>Portfolio website</h3>
+          <h3>Freek van den Bosch</h3>
+          <div class="row">
+            <div class="col">
+              <img
+                class="icon-down"
+                src="/input/images/Icons/down-button.svg"
+                alt=""
+                onclick="scrollToIntro()"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container body-container text-center" id="intro">
+      <div class="row justify-content-center">
+        <div class="col-10 toggle-menu">
+          <div
+            class="toggle flex-column toggle-pills me-3"
+            id="v-pills-tab"
+            role="tablist"
+            aria-orientation="vertical"
+          >
+            <button
+              class="toggle-link active"
+              id="v-pills-intro-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-intro"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-intro"
+              aria-selected="true"
+            >
+              Introductie
+            </button>
+            <button
+              class="toggle-link"
+              id="v-pills-inleiding-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-inleiding"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-inleiding"
+              aria-selected="false"
+            >
+              Inleiding
+            </button>
+            <button
+              class="toggle-link"
+              id="v-pills-startup-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-startup"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-startup"
+              aria-selected="false"
+            >
+              Startup
+            </button>
+            <button
+              class="toggle-link"
+              id="v-pills-raak-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-raak"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-raak"
+              aria-selected="false"
+            >
+              Raak!
+            </button>
+            <button
+              class="toggle-link"
+              id="v-pills-reflectie-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-reflectie"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-reflectie"
+              aria-selected="false"
+            >
+              Reflectie
+            </button>
+            <button
+              class="toggle-link"
+              id="v-pills-leerdoel-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-leerdoel"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-leerdoel"
+              aria-selected="false"
+            >
+              Leerdoelen
+            </button>
+          </div>
+          <div class="tab-content" id="v-pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="v-pills-intro"
+              role="tabpanel"
+              aria-labelledby="v-pills-intro-tab"
+            >
+              <h3>Introductie</h3>
+              <br />
+              <p class="tekst">
+                Korte voorstelronde, want inmiddels ben ik bij de meeste al wel
+                een bekend gezicht. Maar voor diegene die zich afvragen wie is
+                die jongen, nou ik ben Freek van den Bosch. Ondertussen zit ik
+                al in het 7e semester van mijn opleiding ICT & Media. Normaliter
+                volg ik mijn opleiding te Eindhoven, maar in verband met een
+                betere ervaring tijdens mijn minor heb ik er voor gekozen om
+                mijn laatste schoolsemester in Tilburg te volgen. Mijn interesse
+                en expertise liggen voornamelijk op het gebied van web
+                development & branding. Ik geniet er van om creatief bezig te
+                zijn en betekenisvolle huisstijlen en andere marketinguitingen
+                te ontwerpen.
+              </p>
+              <br />
+              <p class="tekst">
+                Naast mijn studie ben ik ook actief als ondernemer onder de naam
+                Fresch Branding. Hiermee focus ik op het ontwikkelen van
+                websites en het vormgeven van branding, voornamelijk gericht op
+                beginnende ondernemers.
+              </p>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="v-pills-inleiding"
+              role="tabpanel"
+              aria-labelledby="v-pills-inleiding-tab"
+            >
+              <h3>Inleiding</h3>
+              <br />
+              <p class="tekst">
+                De opzet van dit semester bestaat uit drie onderdelen /
+                verschillende projecten. Nu we halverwege het semester zijn,
+                zitten we midden in het tweede project van het semester. In deze
+                leeswijzer vertel ik mijn ervaring, het proces die mijn groep en
+                ik door hebben gemaakt en de resultaten die geleverd zijn.
+              </p>
+              <br />
+              <p class="tekst">
+                Allereerst licht ik kort toe hoe het verloop van het Startup
+                project is verlopen en vervolgens het RAAK! It's a Match
+                project.
+              </p>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="v-pills-startup"
+              role="tabpanel"
+              aria-labelledby="v-pills-startup-tab"
+            >
+              <h3>Startup</h3>
+              <br />
+              <p class="tekst">
+                Het begin project van het semester was het opzetten van een
+                startup bedrijf, hoe en wat mochten we zelf invullen. Zo zijn we
+                met de groep bij elkaar gaan zitten en hebben we overeenkomende
+                interesses gezocht en zijn we gaan brainstormen. We hebben
+                gebruik gemaakt van bloemassociaties omdat we op deze manier
+                uitgebreid onze interesses op papier konden krijgen, en met
+                interessante ideeën konden komen.
+              </p>
+              <br />
+              <p class="tekst">
+                Vervolgens met een aantal favoriete plannen zijn we deze gaan
+                uitwerken om dit voor te kunnen leggen aan de docenten. Deze
+                werden tot een aantal keer helaas afgewezen door verschillende
+                redenen (privacy wetgeving, beschermde domeinen etc.). Hierdoor
+                werden we noodgedwongen weer aan het brainstormen gezet. Dit had
+                echter een negatief effect op de motivatie en werd het proces
+                alleen maar lastiger. Uiteindelijk, en ook omdat tijd een rol
+                begon te spelen, zijn we tot een idee gekomen dat door de
+                docenten werd goedgekeurd. Echter moest deze wel na enige tijd
+                aangepast worden om het rendabel te maken vanwege de
+                kostenposten.
+              </p>
+              <br />
+              <p class="tekst">
+                Het definitieve product dat we zijn gaan uitwerken is een AR
+                applicatie voor slimme spiegels geworden. En met dit plan zijn
+                we onderzoek gaan uitvoeren naar de mogelijkheden, doelgroep en
+                gebruikers. Met een volledig beeld van het project en de user
+                testen die zijn uitgevoerd hebben we in de laatste week de stap
+                gemaakt naar de realisatie.
+              </p>
+              <br />
+              <p class="tekst">
+                Met name Pieter is druk bezig geweest met het ontwikkelen van de
+                Proof of Concepts. Echter heb ik me nog wel bezig gehouden met
+                een early prototype om de haarkleur van een object te
+                veranderen. Dit heb gedaan ik door middel van het importeren van
+                een model en op het haaronderdeel en daar een script opgezet
+                zodat wanneer je op de knop klikt de haarkleur veranderd.
+              </p>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="v-pills-raak"
+              role="tabpanel"
+              aria-labelledby="v-pills-raak-tab"
+            >
+              <h3>RAAK! It's a Match</h3>
+              <br />
+              <p class="tekst">
+                Na het afronden van het eerste project zijn we over gegaan naar
+                het hoofdproject met een nieuwe groep. Dit maal werd er vanuit
+                Fontys Journalistiek een opdracht aangeleverd waar we aan
+                moesten werken. De case van deze opdracht is het ontwikkelen van
+                een interface voor een AI tools applicatie voor
+                onderzoeksjournalisten. Onze opdracht is een onderdeel van een
+                groter onderzoeksproject genaamd RAAK! It's a Match.
+              </p>
+              <br />
+              <p class="tekst">
+                Omdat er in het begin nog veel onduidelijkheid heerste wilden we
+                zo snel mogelijk in contact komen met onderzoeksjournalisten.
+                Met de feedback van deze journalisten zouden we ons onderzoek
+                meer diepgang kunnen geven en tot een concreet doel kunnen gaan.
+                Echter gingen de eerste weken al snel voorbij zonder gesprekken
+                en werd de onduidelijkheid alleen maar groter. Hierdoor hebben
+                we weinig progressie kunnen maken en alleen maar onderzoek
+                kunnen doen naar algemene zaken.
+              </p>
+              <br />
+              <p class="tekst">
+                Met uiteindelijk twee gesprekken gehad te hebben, hebben we ons
+                onderzoek kunnen afronden, met het bepalen van de doelgroep, het
+                maken van o.a. user stories, story boards, requirements en een
+                workflow. Met een duidelijk beeld van de doelgroep/gebruiker
+                zijn we aan de slag gegaan met het schetsen van de applicatie,
+                omdat we nu beter weten hoe deze eruit ziet.
+              </p>
+              <br />
+              <p class="tekst">
+                Nadat we gezamenlijk de schetsen hebben uitgewerkt hebben we
+                onze groep opgedeeld in twee teams van 2. Dit hebben we gedaan
+                omdat met zn alle tegelijk te wireframen of aan poc's te werken
+                niet functioneel is. Daarnaast hadden Thomas en ik aangegeven
+                meer technische kennis te willen opdoen en dus zijn wij bezig
+                gegaan me de POC's. In de tussen tijd zijn Daan en Lars aan het
+                werk gegaan met het realiseren van de wireframes en de eerste
+                prototype.
+              </p>
+              <br />
+              <p class="tekst">
+                Deze POC's zijn functionaliteiten van de applicatie uitgewerkt
+                in React Typescript om vervolgens te kunnen implementeren in de
+                high-fi prototype. Met deze functionaliteiten kunnen we
+                uiteindelijk de beste ervaring bieden bij het presenteren van
+                het eindresultaat.
+              </p>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="v-pills-reflectie"
+              role="tabpanel"
+              aria-labelledby="v-pills-reflectie-tab"
+            >
+              <h3>Reflectie</h3>
+              <br />
+              <p></p>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="v-pills-leerdoel"
+              role="tabpanel"
+              aria-labelledby="v-pills-leerdoel-tab"
+            >
+              <h3>Leerdoelen</h3>
+              <br />
+              <div class="row row-cols-1 row-cols-md-3">
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Leerdoel 1:</h5>
+                      <p class="card-text">
+                        This is a longer card with supporting text below as a
+                        natural lead-in to additional content.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Leerdoel 2</h5>
+                      <p class="card-text">
+                        This is a longer card with supporting text below as a
+                        natural lead-in to additional content.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Leerdoel 3</h5>
+                      <p class="card-text">
+                        This is a longer card with supporting text below as a
+                        natural lead-in to additional content.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Leerdoel 4</h5>
+                      <p class="card-text">
+                        This is a longer card with supporting text below as a
+                        natural lead-in to additional content.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Leerdoel 5</h5>
+                      <p class="card-text">
+                        This is a longer card with supporting text below as a
+                        natural lead-in to additional content.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Leerdoel 6</h5>
+                      <p class="card-text">
+                        This is a longer card with supporting text below as a
+                        natural lead-in to additional content.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Leerdoel 7</h5>
+                      <p class="card-text">
+                        This is a longer card with supporting text below as a
+                        natural lead-in to additional content.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container footer-container">
+      <div class="row top-button">
+        <div class="col-12 text-center">
+          <img
+            class="up-button img-fluid"
+            src="/input/images/Icons/wit/up-button-wit.svg"
+            alt=""
+            onclick="scrollToNavbar()"
+          />
+          <p class="top-button-text">Naar boven</p>
+        </div>
+      </div>
+      <div class="row footer-input align-items-end justify-content-center">
+        <div class="col-8 col-md-4 text-start footer-copywrite">
+          © 2023 <a href="index.html">FRESCH BRANDING</a>
+        </div>
+        <div class="col text-center footer-logo d-none d-lg-block">
+          <img
+            src="/input/FRESCH Logo/FRESCH_minimal_Logo/FRESCH_Minimal_Logo_White.png"
+            alt="FRESCH BRANDING Logo"
+          />
+        </div>
+        <div class="col-4 col-md-4 text-end footer-icons">
+          <a
+            href="https://www.instagram.com/fresch_branding/?igshid=YmMyMTA2M2Y%3D"
+          >
+            <img
+              src="/input/images/Icons/wit/instagram-icon-wit.svg"
+              alt="Instagram icon"
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/freek-van-den-bosch/">
+            <img
+              src="/input/images/Icons/wit/linkedin-icon-wit.svg"
+              alt="LinkedIn icon"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid footer-background-con">
+      <div class="row footer-background-row">
+        <div class="col footer-background-col">
+          <img
+            class="img-fluid"
+            src="/input/images/footer-background.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/app.js"></script>
+  </body>
+</html>
