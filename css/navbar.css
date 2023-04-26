@@ -5,8 +5,13 @@
     padding: 0;
 }
 
-.navbar-collapse {
+.offcanvas-header {
+    display: block;
+    width: 100vw;
     height: 100vh;
+    background-color: var(--darkgray);
+    padding: 0;
+    text-align: end;
 }
 
 .navbar-brand img{
@@ -15,86 +20,30 @@
     margin-left: 30px;
 }
 
-.navbar-toggler {
-    width: 20px;
-    height: 20px;
-    position: relative;
-    transition: .8s ease-in-out;
-    margin-top: 10px;
-    margin-right: 30px;
-}
-
-.navbar-toggler,
-.navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: none;
-    border: 0;
-    position: relative;
-}
-
-.navbar-toggler span {
-    margin: 0;
+.menu-icon {
+    margin: 10px 30px 0 0;
     padding: 0;
 }
-
-.toggler-icon {
-    display: block;
-    position: absolute;
-    height: 3px;
-    width: 100%;
-    background: var(--lightgray);
-    border-radius: 2px;
-    opacity: 1;
-    left: 0;
-    transform: rotate(0deg);
-    transition: .25s ease-in-out;
+.menu-icon:hover {
+    color: var(--yellow);
 }
 
-.middle-bar {
-    margin-top: 0px;
+.close-button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
 }
 
-/* State when the navbar is collapsed */
-.navbar-toggler.collapsed .top-bar {
-    position: absolute;
-    top: 0px;
-    transform: rotate(0deg);
+.close-icon {
+    color: var(--lightgray);
+    transform: rotate(45deg);
+    margin: 32px 42px 0 0;
 }
-
-.navbar-toggler.collapsed .middle-bar {
-    opacity: 1;
-    position: absolute;
-    top: 10px;
-    filter: alpha(opacity=100);
-}
-
-.navbar-toggler.collapsed .bottom-bar {
-    position: absolute;
-    top: 20px;
-    transform: rotate(0deg);
-}
-
-/* when navigation is clicked */
-.navbar-toggler .top-bar {
-    top: inherit;
-    transform: rotate(135deg);
-}
-
-.navbar-toggler .middle-bar {
-    opacity: 0;
-    top: inherit;
-    filter: alpha(opacity=0);
-}
-
-.navbar-toggler .bottom-bar {
-    top: inherit;
-    transform: rotate(-135deg);
-}
-
-.navbar-toggler.collapsed .toggler-icon {
-    background: var(--darkgray);
+.close-icon:hover {
+    color: var(--yellow);
+    transform: rotate(90deg);
+    transition-duration: 500ms;
 }
 
 /* navbar menu */

@@ -1,5 +1,6 @@
 #local php files
 /config.local.php
+/form-to-email.php
 
 #google maps api
 /js/google-maps.js
