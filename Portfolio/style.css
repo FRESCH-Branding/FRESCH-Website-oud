@@ -100,7 +100,7 @@
 }
 
 .body-container {
-    height: 1000px;
+    height: 1100px;
     margin: 0;
     padding: 0;
 }
@@ -134,7 +134,36 @@
 
 .tab-pane {
     margin-top: 25px;
-    margin-bottom: 100px;
+}
+
+
+/* CARDS */
+
+
+.card {
+    border: none;
+    background-color: transparent;
+    text-align: start;
+}
+
+.card-title {
+    font-family: var(--medium);
+    font-size: var(--body);
+    margin-bottom: 25px;
+}
+
+.link-list {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.card-text {
+    /* text-align: start; */
+    font-size: var(--subtitle);
+}
+
+li a:hover {
+    color: var(--yellow);
 }
 
 /* ------------- footer */
